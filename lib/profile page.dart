@@ -4,6 +4,7 @@ import 'package:untitled5/add%20cart%20page.dart';
 import 'package:untitled5/amazon%20file%201.dart';
 import 'package:untitled5/amazonfile.dart';
 import 'package:untitled5/categories.dart';
+import 'package:untitled5/edit%20profile.dart';
 import 'package:untitled5/notification.dart';
 
 class profile extends StatelessWidget {
@@ -55,11 +56,22 @@ appBar: AppBar(
             ),
         SizedBox(height: 20,),
         InkWell(
-          child: Card(
-            child: ListTile(
-              leading: Icon(Icons.person),
-              title: Center(child: Text("Edit Profile")),
-              trailing: Icon(Icons.arrow_forward_ios_outlined),
+          child: GestureDetector(
+            onTap: ()
+            {
+
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const edit()),
+              );
+
+            },
+            child: Card(
+              child: ListTile(
+                leading: Icon(Icons.person),
+                title: Center(child: Text("Edit Profile")),
+                trailing: Icon(Icons.arrow_forward_ios_outlined),
+              ),
             ),
           ),
         ),

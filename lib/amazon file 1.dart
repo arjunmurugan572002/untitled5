@@ -4,9 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:untitled5/add%20cart%20page.dart';
 import 'package:untitled5/amazonfile.dart';
 import 'package:untitled5/categories.dart';
-import 'package:untitled5/file%20new%201.dart';
-import 'package:untitled5/file%20new%202.dart';
-import 'package:untitled5/file%20new%203.dart';
 
 import 'package:untitled5/notification.dart';
 import 'package:untitled5/profile%20page.dart';

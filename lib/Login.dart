@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:untitled5/FILE%20MAIL.dart';
 import 'package:untitled5/amazon%20file%201.dart';
 import 'package:untitled5/amazonfile.dart';
-import 'package:untitled5/file%20new%201.dart';
-import 'package:untitled5/file%20new%202.dart';
+
 import 'package:untitled5/registerpage.dart';
 
 

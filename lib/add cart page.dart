@@ -243,7 +243,7 @@ class _cartState extends State<cart> {
                 //   ),
                 // ),
                 Padding(
-                  padding: const EdgeInsets.only(left:10),
+                  padding: const EdgeInsets.only(left:8),
 
                   child: Row(
                     children: [
